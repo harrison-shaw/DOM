@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" , initial-scale=1.0">
+    <title>Event Basics
+    </title>
+
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- alerts will run in order of 'button'>'p'>'section' -->
+    <section onclick="alert ('clicked')">
+    <p onclick="alert('paragraph clicked')"">
+        I am a paragraph
+        <button onclick=" alert ('button clicked')"">Click</button>
+    </p>
+</section>
+
+
+    <div id="container">
+        Click to Hide 
+        <button id="changeColor">Change Color</button>
+    </div>
+
+
+    <!-- <input type='text'> -->
+    <script src="app.js"></script>
+</body>
+
+</html>
